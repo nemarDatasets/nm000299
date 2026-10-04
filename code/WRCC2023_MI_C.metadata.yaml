@@ -1,0 +1,118 @@
+_dataset:
+  class: WRCC2023_MI_C
+  code: WRCC2023-MI-C
+  doi: 10.7910/DVN/G8FBHH
+  interval:
+  - 0
+  - 3.999
+  n_subjects: 8
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 59
+  hardware: Neuracle NeuSen W 64-channel wireless EEG (channels 1-59 EEG)
+  line_freq: 50.0
+  montage: standard_1005
+  sampling_rate: 1000.0
+  sensors:
+  - Fpz
+  - Fp1
+  - Fp2
+  - AF3
+  - AF4
+  - AF7
+  - AF8
+  - Fz
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - FCz
+  - FC1
+  - FC2
+  - FC3
+  - FC4
+  - FC5
+  - FC6
+  - FT7
+  - FT8
+  - Cz
+  - C1
+  - C2
+  - C3
+  - C4
+  - C5
+  - C6
+  - T7
+  - T8
+  - CP1
+  - CP2
+  - CP3
+  - CP4
+  - CP5
+  - CP6
+  - TP7
+  - TP8
+  - Pz
+  - P3
+  - P4
+  - P5
+  - P6
+  - P7
+  - P8
+  - POz
+  - PO3
+  - PO4
+  - PO5
+  - PO6
+  - PO7
+  - PO8
+  - Oz
+  - O1
+  - O2
+documentation:
+  country: CN
+  data_url: https://doi.org/10.7910/DVN/G8FBHH
+  description: Three-class (left hand, right hand, feet) motor imagery EEG dataset from the 2023 World Robot Contest BCI competition
+    (MI-C track); 8 subjects including 2 stroke patients, 90 trials each.
+  doi: 10.7910/DVN/G8FBHH
+  institution: World Robot Contest (BCI-Controlled Robot Contest)
+  investigators:
+  - WRCC2023
+  license: CC0-1.0
+  publication_year: 2024
+  repository: Harvard Dataverse
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  - feet
+  events:
+    feet: 3
+    left_hand: 1
+    right_hand: 2
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  synchronicity: cue-based
+  trials_per_class:
+    feet: 30
+    left_hand: 30
+    right_hand: 30
+file_format: mat
+participants:
+  clinical_population: stroke
+  health_status: 'mixed: healthy individuals and stroke patients (2 stroke)'
+  n_subjects: 8
+  species: homo sapiens
+runs_per_session: 90
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  type:
+  - Motor Imagery
