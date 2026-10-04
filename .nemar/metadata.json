@@ -1,0 +1,73 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "WRCC2023": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.7910/DVN/G8FBHH",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000299",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000299",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "WRCC2023-MI-C",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "335 MB (721 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "Three-class motor imagery EEG dataset (left hand, right hand, feet) from the MI-C track of the 2023 World Robot Contest BCI competition. It includes 8 participants, two of whom are stroke patients, each completing 90 cue-based offline trials. Data were recorded with a 59-channel EEG montage at 1000 Hz and are distributed in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with a Neuracle NeuSen W 64-channel wireless system (59 EEG channels used, standard_1005 montage) at 1000 Hz with 50 Hz line frequency. Participants performed cue-based motor imagery of left hand, right hand, or feet (30 trials per class), with 4 s epochs per trial, each stored as a separate run.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "BCI competition"
+    }
+  ],
+  "source_hash": "f33ad006ae7436dce48d6f98b6d360f1eefef6898d902462d757d6a5bc815c66"
+}
