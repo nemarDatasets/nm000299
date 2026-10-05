@@ -1,9 +1,31 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "WRCC2023_MI_C: Three-class motor imagery dataset from the World Robot Contest 2023 (MI-C)",
+  "description": "A three-class motor imagery EEG dataset (left hand, right hand, feet) from the MI-C track of the 2023 World Robot Contest BCI competition. It contains recordings from 8 participants, including 2 stroke patients, with 90 cue-based trials each. Data were recorded with a 59-channel EEG system at 1000 Hz and re-released in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with a Neuracle NeuSen W 64-channel wireless system (59 EEG channels used, 1000 Hz sampling rate, 50 Hz line frequency). Participants performed cue-based offline motor imagery of left hand, right hand, or feet, with 30 trials per class and 4 s epochs.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "WRCC2023": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "stroke"
+    },
+    {
+      "term": "BCI competition"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.7910/DVN/G8FBHH",
@@ -31,14 +53,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "WRCC2023-MI-C",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "335 MB (721 files)"
   ],
@@ -46,28 +65,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "Three-class motor imagery EEG dataset (left hand, right hand, feet) from the MI-C track of the 2023 World Robot Contest BCI competition. It includes 8 participants, two of whom are stroke patients, each completing 90 cue-based offline trials. Data were recorded with a 59-channel EEG montage at 1000 Hz and are distributed in BIDS format via MOABB.",
-  "methods_description": "EEG was recorded with a Neuracle NeuSen W 64-channel wireless system (59 EEG channels used, standard_1005 montage) at 1000 Hz with 50 Hz line frequency. Participants performed cue-based motor imagery of left hand, right hand, or feet (30 trials per class), with 4 s epochs per trial, each stored as a separate run.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "Stroke",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
-    },
-    {
-      "term": "BCI competition"
-    }
-  ],
-  "source_hash": "f33ad006ae7436dce48d6f98b6d360f1eefef6898d902462d757d6a5bc815c66"
+  "source_hash": "8b38d67e055ed74806527552627303380a7291880ee322458a5dafdba789896f"
 }
