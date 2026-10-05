@@ -1,1 +1,63 @@
-../.git/annex/objects/Fj/93/SHA256E-s1719--ca432fb8142f11f061f80613ff71d7317b3969116668acfbec0aec48fbbc6e3d.json/SHA256E-s1719--ca432fb8142f11f061f80613ff71d7317b3969116668acfbec0aec48fbbc6e3d.json
+{
+ "dataset": "nm000299",
+ "moabb_class": "WRCC2023_MI_C",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-05",
+ "retrieved_by": "moabb.datasets.WRCC2023_MI_C.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/WRCC2023_MI_C/MNE-wrcc2023-mi-c-data/api/access/datafile",
+ "license": "CC0-1.0",
+ "doi": "10.7910/DVN/G8FBHH",
+ "naming": "upstream_filenames_restored",
+ "n_files": 8,
+ "total_bytes": 1359365376,
+ "files": [
+  {
+   "file": "10358842",
+   "bytes": 169920672,
+   "sha256": "a67ac31dff96955475d58f60be33f70bc5b2ca88ec16b7ecfd2debdf2ecd5cce",
+   "subject": "4"
+  },
+  {
+   "file": "10358843",
+   "bytes": 169920672,
+   "sha256": "30ef57e74695d8ffe4a6eb24324f39a175c21504b5e0059af066f032d7a5da60",
+   "subject": "3"
+  },
+  {
+   "file": "10358844",
+   "bytes": 169920672,
+   "sha256": "df533915eee036db9042b980afcf36c8afcf16daf103f728b05bf37a758ae127",
+   "subject": "5"
+  },
+  {
+   "file": "10358845",
+   "bytes": 169920672,
+   "sha256": "303fe7c5e60f4ba8e2dbaf8710815196fba4724d71e954f11af5d389e86eaef4",
+   "subject": "1"
+  },
+  {
+   "file": "10358846",
+   "bytes": 169920672,
+   "sha256": "9651aeea8f0a024f2fae53fa422215dbbdb87b6c7548c58d05bd45a522fdb03e",
+   "subject": "7"
+  },
+  {
+   "file": "10358847",
+   "bytes": 169920672,
+   "sha256": "51c63b2cd48e1fe054bb4753e3011df37b3187929be280850b9c343f997378ef",
+   "subject": "6"
+  },
+  {
+   "file": "10358848",
+   "bytes": 169920672,
+   "sha256": "4467f7e549d21c65e6e065fb256764fc5f054682c043e73121c87227f54b0194",
+   "subject": "8"
+  },
+  {
+   "file": "10358849",
+   "bytes": 169920672,
+   "sha256": "7ecf33e8b75600991c4fcd7ccafcd91f54aa1876a5570feff3e7ca7856ba7de1",
+   "subject": "2"
+  }
+ ]
+}
