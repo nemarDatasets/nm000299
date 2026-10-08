@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "WRCC2023_MI_C: Three-class motor imagery dataset from the World Robot Contest 2023 (MI-C)",
-  "description": "Three-class motor imagery EEG dataset (left hand, right hand, feet) from the MI-C track of the 2023 World Robot Contest BCI competition. It includes 8 participants, two of whom are stroke patients, with 90 cue-based trials each recorded from 59 EEG channels at 1000 Hz. This BIDS release was reformatted from the original Harvard Dataverse deposit using MOABB.",
-  "methods_description": "EEG was recorded with a Neuracle NeuSen W 64-channel wireless system (59 EEG channels used, 1000 Hz sampling rate, standard_1005 montage). Participants performed cue-based offline motor imagery of left hand, right hand, or feet, with 30 trials per class and 4-second trials. Each trial is stored as a separate run.",
+  "description": "Three-class motor imagery (left hand, right hand, feet) EEG dataset from the MI-C track of the 2023 World Robot Contest BCI competition. It contains recordings from 8 participants, including 2 stroke patients, with 90 cue-based trials each, acquired with a 59-channel EEG system at 1000 Hz. This BIDS release was produced via MOABB from the original Harvard Dataverse deposit.",
+  "methods_description": "Cue-based, offline motor imagery paradigm with three classes (left hand, right hand, feet), 30 trials per class per subject. EEG was recorded with a Neuracle NeuSen W 64-channel wireless system (59 EEG channels used) at 1000 Hz, standard_1005 montage, 50 Hz line frequency. Each 4 s trial is exposed as a separate run.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,12 +20,10 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "Stroke",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+      "term": "stroke"
     },
     {
-      "term": "BCI competition"
+      "term": "World Robot Contest"
     }
   ],
   "related_identifiers": [
